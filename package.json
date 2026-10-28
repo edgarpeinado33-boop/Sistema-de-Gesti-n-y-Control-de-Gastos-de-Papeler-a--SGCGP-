@@ -1,0 +1,39 @@
+{
+  "name": "sgcgp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sistema de Gestión y Control de Gastos de Papelería (SGCGP) - Remix + Supabase + ML",
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "dev": "remix vite:dev",
+    "build": "remix vite:build",
+    "start": "remix-serve ./build/server/index.js",
+    "typecheck": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@remix-run/react": "2.16.7",
+    "@remix-run/node": "2.16.7",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.4",
+    "@vercel/remix": "2.16.7",
+    "exceljs": "^4.4.0",
+    "isbot": "^4.4.0",
+    "papaparse": "^5.5.2",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "2.16.7",
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.1.8"
+  },
+  "engines": { "node": ">=20.0.0" }
+}
